@@ -3,11 +3,13 @@ public class Main {
 
         int x = 5;
         int y = 10;
+        int z = 14;
 
         Main mainClass = new Main();
 
         System.out.println(mainClass.plus(x,y));
         System.out.println(mainClass.minus(x,y));
+        System.out.println(mainClass.minus(z,y));
 
     }
 
