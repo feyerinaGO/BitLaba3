@@ -8,6 +8,7 @@ public class Main {
         Main mainClass = new Main();
 
         System.out.println(mainClass.plus(x,y));
+        System.out.println(mainClass.plus(z,x));
         System.out.println(mainClass.minus(x,y));
         System.out.println(mainClass.minus(z,y));
 
