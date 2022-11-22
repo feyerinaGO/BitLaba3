@@ -11,7 +11,14 @@ public class Main {
         System.out.println(mainClass.plus(z,x));
         System.out.println(mainClass.minus(x,y));
         System.out.println(mainClass.minus(z,y));
-
+        while (true) {
+            System.out.println(mainClass.plus(x,y));
+            try {
+                Thread.sleep(10000);
+            } catch (InterruptedException e) {
+                System.out.println(e);;
+            }
+        }
     }
 
     public int plus(int number1, int number2) {
@@ -22,3 +29,5 @@ public class Main {
         return number1 - number2;
     }
 }
+
+
